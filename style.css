@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+ box-sizing: border-box;
+}
+body{
+ background-color: rgb(202, 199, 199);
+background-image: url(/images/Ferrari.webp);
+margin: 0;
+align-items: center;
+justify-content: center;
+display: flex;
+min-width: 100vh;
+overflow: hidden;
+}
+.quiz-container{
+ background-color: white;
+ box-shadow: 0 0 10px 5px rgba(100, 100, 100 0.1);
+ width: 350px;
+ max-width: 100%;
+ border-radius: 10px;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+}
+h2{
+ margin: 0;
+}
+ul{
+ list-style-type: none;
+ padding: 0;
+}
+ul li{
+ font-size: 1rem;
+ margin: 1rem 0;
+}
+.quiz-lab{
+ padding: 2rem;
+}
+button{
+ background-color: rgb(97, 97, 237);
+ width: 100%;
+ font-size: 2rem;
+ border: none;
+ margin-bottom: 0;
+ cursor: pointer;
+ display: block;
+ padding: 1.3rem;
+ border-radius: 10px;
+}
